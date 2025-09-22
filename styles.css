@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #fff7db;
+    color: #000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    text-align: center;
+}
+
+.medium {
+    font-size: 24px;
+}
+
+.close {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.large {
+    font-size: 36px;
+}
+
+.display {
+    font-size: 72px;
+    line-height: 48px;
+}
+
+.mea-culpa {
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quintessential {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eagle-lake {
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jacquard {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
