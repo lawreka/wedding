@@ -2,11 +2,26 @@ body {
     margin: 0px;
     min-width: 100vw;
     min-height: 100vh;
-    background-color: #fff7db;
+    background-color: #FFFCF4;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
     color: #000;
 }
 
+a:hover {
+    color: #881717;
+}
+
+div {
+    margin-bottom: 24px;
+}
+
 .main {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,47 +30,51 @@ body {
     text-align: center;
 }
 
-.medium {
-    font-size: 24px;
-}
-
-.close {
+.page {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 24px;
-}
-
-.large {
-    font-size: 36px;
-}
-
-.display {
-    font-size: 72px;
-    line-height: 48px;
-}
-
-.mea-culpa {
-    font-family: "Mea Culpa", cursive;
-    font-weight: 400;
-    font-style: normal;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .quintessential {
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
-}
-
-.eagle-lake {
-    font-family: "Eagle Lake", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 24px;
 }
 
 .jacquard {
     font-family: "Jacquard 24", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 60px;
+}
+
+.menu {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    margin-bottom: 60px;
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.no-margin {
+    margin-bottom: 0px;
 }
