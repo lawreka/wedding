@@ -78,3 +78,13 @@ div {
 .no-margin {
     margin-bottom: 0px;
 }
+
+.bordered {
+    padding: 12px 24px;
+    border: 2px solid #000;
+}
+
+hr {
+    width: 80%;
+    color: #000;
+}
